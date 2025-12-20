@@ -6,9 +6,6 @@ public class FizzBuzzUsingFor {
         
         System.out.print("Enter a positive integer: ");
         int num = sc.nextInt();
-        if (num <= 0) {
-            System.out.println("Please enter a positive integer.");
-        }
         for (int i = 1; i <= num; i++) {
             if (i % 15 == 0) {
                 System.out.println("FizzBuzz");
