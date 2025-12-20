@@ -5,11 +5,13 @@ public class MultiplicationSixToNine {
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
         int[] res=new int[4];
-        for(int i=6;i>=9;i++){
-            res[i]=num*i;
+        int index=0;
+        for(int i=6;i<=9;i++){
+            res[index]=num*i;
+            index++;
         }
-        for (int i =0; i <4; i++) {
-            System.out.println(num+"*"+i+"="+res[i]);
+        for (int i=0; i<4; i++) {
+            System.out.println(res[i]);
             
         }
 
