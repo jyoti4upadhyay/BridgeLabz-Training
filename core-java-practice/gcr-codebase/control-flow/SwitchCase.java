@@ -22,7 +22,7 @@ public class SwitchCase {
                 System.out.println("Result: " + (num1 * num2));
                 break;
             case "/":
-                if (second != 0)System.out.println("Result: " + (num1 / num2));
+                if ( num2 != 0)System.out.println("Result: " + (num1 / num2));
                 else System.out.println("Division by zero is not allowed");
                 break;
             default:
