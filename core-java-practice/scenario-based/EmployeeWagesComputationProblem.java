@@ -82,6 +82,7 @@ public class EmployeeWagesComputationProblem{
         int totaldays=0;
         while(totalHour<100 && totaldays<20){
             totaldays++;
+            System.out.println("Enter your choice 0:Absent,1:8hr,2:4hr");
             int attend=sc.nextInt();//0,1,2
             int workingHr=0;
 
@@ -106,6 +107,7 @@ public class EmployeeWagesComputationProblem{
         EmployeeWagesComputationProblem plbm=new EmployeeWagesComputationProblem();
         plbm.attendanceCheck();
         int wage_daily=plbm.EmployeeDailyWages();
+        plbm.partTimeWage();
         plbm.monthlyWage(wage_daily);
         plbm.totalWorkingHr();
 
