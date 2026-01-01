@@ -1,4 +1,3 @@
-import javax.net.ssl.HandshakeCompletedEvent;
 
 public class HospitalMangement {
     static int patients=0;
@@ -15,6 +14,7 @@ public class HospitalMangement {
         this.ailment=ailment;
         this.patientId=patientId;
         this.age=age;
+        patients++;
     }
     
 
@@ -26,10 +26,15 @@ public class HospitalMangement {
             System.out.println("Ailmen: "+ailment);
         }
     }
+    static int patientCount(){
+        return patients;
+    }
     public static void main(String[] args) {
-        HospitalMangement hm= new HospitalMangement("",)
-        em.display();
-        EmployeeMangement.displayTotalEmployee();
+
+        HospitalMangement hm= new HospitalMangement("Ram","Dengue","P001",31);
+        hm.getHospitalName();
+        hm.display();
+        HospitalMangement.patientCount();
     }
 
     
