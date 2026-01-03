@@ -1,17 +1,15 @@
 
-import javax.lang.model.SourceVersion;
-
-class BankAccount{
+class Account{
     int accountNumber;
     double balance;
-    BankAccount(int accountNumber,double balance){
+    Account(int accountNumber,double balance){
         this.accountNumber=accountNumber;
         this.balance=balance;
 
     }
 
 }
-class SavingAccount extends BankAccount{
+class SavingAccount extends Account{
     double interestRate;
     SavingAccount(double interestRate,int accountNumber,double balance){
         super(accountNumber,balance);
@@ -22,7 +20,7 @@ class SavingAccount extends BankAccount{
     }
 
 }
-class CheckingAccount extends BankAccount{
+class CheckingAccount extends Account{
     double withdrawalLimit;
 
     public CheckingAccount(double withdrawalLimit, int accountNumber, double balance) {
@@ -33,11 +31,11 @@ class CheckingAccount extends BankAccount{
         System.out.println("Checking Account - Withdrawal Limit: ₹" + withdrawalLimit);
     }
 }
-class FixedDepositAccount extends BankAccount {
+class FixedDepositAccount extends Account {
     int termInMonths;
 
     FixedDepositAccount(int accountNumber, double balance, int termInMonths) {
-        super(accountNumber, balance);
+        super(accountNumber,balance);
         this.termInMonths = termInMonths;
     }
 
@@ -49,12 +47,12 @@ class FixedDepositAccount extends BankAccount {
 public class BankAccount{
     public static void main(String[] args) {
         SavingAccount sv=new SavingAccount(456,5000,4.5);
-        CheckingAccount ca=new CheckingAccount(455, 25000, 10000);
+        CheckingAccount ca=new CheckingAccount(5987, 250, 10000);
         FixedDepositAccount fd=new FixedDepositAccount(444, 100000, 12);
 
         sv.display();
-        ca.display();
-        fd.display();
+        ca.displayAccountType();
+        fd.displayAccountType();
 
     }
 
