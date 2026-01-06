@@ -33,7 +33,7 @@ public class onlineRetailOrder {
     public static void main(String[] args){
         Deliveredorder do = new Deliveredorder(001,"20-Aug-2025",987,"25-Aug-2025");
         do.display();
-        System.out.println("Status: "+do.getOrderStatus();
+        System.out.println("Status: "+do.getOrderStatus());
     }
     
 }
