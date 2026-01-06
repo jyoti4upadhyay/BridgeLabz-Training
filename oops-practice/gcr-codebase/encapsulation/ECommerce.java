@@ -104,7 +104,6 @@ public class ECommerce {
 
         }
     }
-    public 
     public static void main(String[] args) {
         List<Product> products =new ArrayList<>();
         products.add(new Electronics(001, "SmartPhone", 23460));
