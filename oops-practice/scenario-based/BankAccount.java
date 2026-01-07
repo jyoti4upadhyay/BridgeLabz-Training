@@ -37,7 +37,7 @@ public class BankAccount{
         BankAccount ac=new BankAccount("ACC12345", 5000);
         ac.checkBalance();
         ac.deposit(2000);
-        ac.withdraw(1000);
+        ac.withdraw(3000);
         ac.withdraw(8000); 
         ac.checkBalance();
     }
