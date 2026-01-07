@@ -34,7 +34,12 @@ public class BankAccount{
         System.out.println(" Current Balance"+balance);
     }
     public static void main(String[] args){
-        BankAccount ac=new BankAccount()
+        BankAccount ac=new BankAccount("ACC12345", 5000);
+        ac.checkBalance();
+        ac.deposit(2000);
+        ac.withdraw(1000);
+        ac.withdraw(8000); 
+        ac.checkBalance();
     }
 
 }
