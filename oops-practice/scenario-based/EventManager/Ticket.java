@@ -1,6 +1,6 @@
- class Ticket {
+ public class Ticket {
     String eventName;
-    private double price;
+    double price;
 
     public Ticket(String eventName, double  price) {
         this.eventName = eventName;

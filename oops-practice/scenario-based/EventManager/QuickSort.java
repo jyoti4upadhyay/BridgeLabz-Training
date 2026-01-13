@@ -6,7 +6,7 @@ public class QuickSort {
          int i = low-1;
 
          for(int j =low;j<high;j++){
-            if(arr[j].getprice() <= pivot){
+            if(arr[j].getPrice() <= pivot){
                 i++;
                 swap(arr,i,j);
             }
