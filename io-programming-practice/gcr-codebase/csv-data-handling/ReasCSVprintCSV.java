@@ -4,13 +4,11 @@ import java.io.IOException;
 
 public class ReasCSVprintCSV {
     public static void main(String[] args) {
-        String filePath = "D:\\BT\\BridgeLabz-Training\\io-programming-practice\\csvDataHandling\\student.csv";
-        String line;
+        String filePath = "D:\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csv-data-handling\\student.csv";
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-
+            String line;
             br.readLine();
-
             while ((line = br.readLine()) != null) {
                 String[] data = line.split(",");
 
@@ -18,17 +16,12 @@ public class ReasCSVprintCSV {
                 String name = data[1];
                 int age = Integer.parseInt(data[2]);
                 int marks = Integer.parseInt(data[3]);
+                System.out.println("Student ID : " + id + ", Name : " + name + ", Age : " + age + ", Marks : " + marks);
 
-                System.out.println("Student ID   : " + id);
-                System.out.println("Name         : " + name);
-                System.out.println("Age          : " + age);
-                System.out.println("Marks        : " + marks);
-                System.out.println("---------------------------");
             }
 
         } catch (IOException e) {
             System.out.println("Error reading CSV file");
-            e.printStackTrace();
         }
     }
 }

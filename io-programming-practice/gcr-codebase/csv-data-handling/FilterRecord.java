@@ -3,32 +3,27 @@ import java.io.FileReader;
 
 public class FilterRecord {
 	public static void main(String[] args) {
-        String filePath = "D:\\BT\\BridgeLabz-Training\\io-programming-practice\\csvDataHandling\\student.csv";
-        String line;
-        try(BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-
+        String path = "D:\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csv-data-handling\\student.csv";
+        try(BufferedReader br = new BufferedReader(new FileReader(path))) {
+            String line;
             br.readLine();
 
             while ((line = br.readLine()) != null) {
-                String[] data = line.split(",");
+                String[] coldata = line.split(",");
                 
-                int marks = Integer.parseInt(data[3]);
+                int marks = Integer.parseInt(coldata[3]);
                 if(marks>80)
                 {
-                	int id = Integer.parseInt(data[0]);
-                    String name = data[1];
-                    int age = Integer.parseInt(data[2]);
-                System.out.println("Student ID   : " + id);
-                System.out.println("Name         : " + name);
-                System.out.println("Age          : " + age);
-                System.out.println("Marks        : " + marks);
-                System.out.println("---------------------------");
+                	int id = Integer.parseInt(coldata[0]);
+                    String name = coldata[1];
+                    int age = Integer.parseInt(coldata[2]);
+                System.out.println("Student ID: " + id+" Name: " + name+" Age: " + age+" Marks: " + marks);
             }
 
 	}
         }
         catch (Exception e) {
-			// TODO: handle exception
+            System.out.println("File not found");
 		}
 }
 }

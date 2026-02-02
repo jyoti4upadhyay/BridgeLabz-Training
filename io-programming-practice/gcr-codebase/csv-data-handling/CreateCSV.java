@@ -14,12 +14,16 @@ public class CreateCSV {
             bw.write("ID,Name,Department,Salary\n");
 
             // Employee records
-            bw.write("101,Abhay,IT,55000\n");
-            bw.write("102,Rahul,HR,45000\n");
-            bw.write("103,Priya,Finance,60000\n");
-            bw.write("104,Amit,Sales,50000\n");
-            bw.write("105,Sneha,Marketing,52000\n");
-
+            bw.write("101,Rahul Sharma,Engineering,60000");
+            bw.newLine();
+            bw.write("102,Priya Verma,HR,45000");
+            bw.newLine();
+            bw.write("103,Amit Singh,Marketing,50000");
+            bw.newLine();
+            bw.write("104,Neha Gupta,Finance,55000");
+            bw.newLine();
+            bw.write("105,Karan Mehta,Sales,48000");
+            bw.newLine();
             System.out.println("Employee CSV file created successfully!");
 
         } catch (IOException e) {
