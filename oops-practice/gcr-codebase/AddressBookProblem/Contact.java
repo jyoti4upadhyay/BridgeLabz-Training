@@ -7,6 +7,7 @@ public class Contact {
     String zip;
     String phoneNumber;
     String email;
+    
     public Contact(String firstName, String lastName, String address, String city, String state, String zip, String phoneNumber, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -17,6 +18,4 @@ public class Contact {
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
-
-    
 }

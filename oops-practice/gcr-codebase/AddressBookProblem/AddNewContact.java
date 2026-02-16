@@ -1,17 +1,17 @@
 import java.util.*;
-public class AddNewContact {
+public class AddNewContact{
     private Contact contact;
-    public AddNewContact(Contact contact){
-        this.contact=contact;
-
+    public AddNewContact(Contact contact) {
+        this.contact = contact;
     }
 
-    List<Contact>contacts=new ArrayList<>();
+    List<Contact> contacts = new ArrayList<>();
 
-    public void addContact(){
+    public void addContact() {
         contacts.add(contact);
-    }
-    void edit(String firstName, String lastName, String address, String city, String state, String zip, String newPhoneNumber, String newEmail) {
+    }   
+
+    void editContact(String firstName, String lastName, String address, String city, String state, String zip, String newPhoneNumber, String newEmail) {
         for(Contact c : contacts) {
             if(c.firstName.equals(firstName) && c.lastName.equals(lastName)) {
                 c.city = city;
@@ -20,7 +20,8 @@ public class AddNewContact {
             }
         }
     }
-    //UC4: Delete Contact
+
+    // UC4: Delete contact by first name and last name
     void deleteContact(String firstName, String lastName) {
     Iterator<Contact> iterator = contacts.iterator();
 
