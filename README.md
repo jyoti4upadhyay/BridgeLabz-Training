@@ -1,136 +1,183 @@
-"# BridgeLabz-Training" 
-Week 1 Getting Started with JAVA
+BridgeLabz-Training – Java Full Stack Practice
+Repository: https://github.com/jyoti4upadhyay/BridgeLabz-Training 
 
-🗓️ 17-Dec-2025 (Wednesday):
-
-Installed and set up Of JAVA & Eclipse. Generated the Project Structure on GitHub.
+📅 Week 1 – Getting Started with JAVA
+17-Dec-2025 (Wednesday)
+Installed and set up Java & Eclipse. Generated project structure on GitHub.
+Project Structure:
 
 BridgeLabz-Training/
-+-- core-java-practice/
-|   +-- gcr-codebase/
-|   |   +-- programming-elements/
-|   |   +-- control-flow/
-|   +-- leet-code-codebase/
-|   +-- scenario-based/
-+-- README.md
-📁 Project Folder Structure
-BRIDGELABZ-TRAINING
-│
-├── core-java-practice
-│ │
-│ ├── gcr-codebase
-│ │ ├── control-flow
-│ │ └── programming-elements
-│ │
-│ ├── leet-code-codebase
-│ └── scenario-based
-│
+├── core-java-practice/
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   ├── control-flow/
+│   │   ├── arrays/
+│   │   ├── strings/
+│   │   ├── methods/
+│   ├── leet-code-codebase/
+│   └── scenario-based/
+├── oops-practice/
+├── dsa-practice/
 ├── .gitignore
 └── README.md
-📅 Week 1 – Day 1
-📘 Programming Elements 🗓️ 18-Dec-2025
-AddTwoNumber.java, BasicCalculator.java, CalculateMarks.java, CelsiusToFahrenheit.java, CurrentYear.java, DiscountCalc.java, DistanceKm.java, DoubleOpt.java, EarthVolume.java, FeetToYardsMiles.java, Handshakes.java, HeightConverter.java, IntOperation.java, PenDistribution.java, PowerCalculation.java, ProfitAndLoss.java, PurchasePrice.java, QuotRem.java, SimpleInterest.java, SideOfSquare.java, StudentFeeDiscount.java, TriangleArea.java, VolumeOfCylinder.java, WelcomeToBridgelabz.java
+📘 18-Dec-2025 – Programming Elements
+Basic Java programs completed and pushed to:
+https://github.com/jyoti4upadhyay/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements 
 
-📅 Day 2: Control Flow in Java DONE Level 1, Level 2, Level 3
+Files include:
+AddTwoNumber.java, BasicCalculator.java, CalculateMarks.java, CelsiusToFahrenheit.java, CurrentYear.java, DiscountCalc.java, DistanceKm.java, DoubleOpt.java, EarthVolume.java, FeetToYardsMiles.java, Handshakes.java, HeightConverter.java, IntOperation.java, PenDistribution.java, PowerCalculation.java, ProfitAndLoss.java, PurchasePrice.java, QuotRem.java, SimpleInterest.java, SideOfSquare.java, StudentFeeDiscount.java, TriangleArea.java, VolumeOfCylinder.java, WelcomeToBridgelabz.java. 
 
-AbundantNumber.java, AllTheMultiples.java, AllTheMultiplesWhile.java, ArmstrongNumberCheck.java, BMI.java, CheckNumber.java, CountDigits.java, DayOfWeight.java, DivideByFive.java, EmployeesBonus.java, Factor.java, FactorWhile.java, FactorialFor.java, FactorialWhile.java, FizzBuzz.java, FizzBuzzWhile.java, GradeCalculator.java, GreatestFactor.java, GreatestFactorWhile.java, HarshadNumber.java, LargestCheck.java, LeapYearLogical.java, LeapYearMultiIf.java, MultiplicationTable.java, NaturalNumbersSum.java, NaturalNumbersSumByFor.java, NaturalNumbersSumCheck.java, OddAndEven.java, Power.java, PowerWhile.java, PrimeCheck.java, RocketCountdownFor.java, RocketCountdownWhile.java, SmallestCheck.java, SpringSeason.java, SumUntilZero.java, SumUntilZeroOrNegative.java, VoteEligibility.java, YoungestAndTallest.java
+📅 19-Dec-2025 – Control Flow Level 1-3
+Completed and pushed Control Flow practice in:
+https://github.com/jyoti4upadhyay/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/control-flow 
 
-🗓️ 20-Dec-2025 (Saturday):
+Files include:
+AbundantNumber.java, AllTheMultiples.java, AllTheMultiplesWhile.java, ArmstrongNumberCheck.java, BMI.java, CheckNumber.java, CountDigits.java, DayOfWeight.java, DivideByFive.java, EmployeesBonus.java, Factor.java, FactorWhile.java, FactorialFor.java, FactorialWhile.java, FizzBuzz.java, FizzBuzzWhile.java, GradeCalculator.java, GreatestFactor.java, GreatestFactorWhile.java, HarshadNumber.java, LargestCheck.java, LeapYearLogical.java, LeapYearMultiIf.java, MultiplicationTable.java, NaturalNumbersSum.java, NaturalNumbersSumByFor.java, NaturalNumbersSumCheck.java, OddAndEven.java, Power.java, PowerWhile.java, PrimeCheck.java, RocketCountdownFor.java, RocketCountdownWhile.java, SmallestCheck.java, SpringSeason.java, SumUntilZero.java, SumUntilZeroOrNegative.java, VoteEligibility.java, YoungestAndTallest.java. 
 
-Completed and Push all the levels of arrays Questions into the "core-java-practice" BRANCH.
-Updated the Readme files for the previous days.
-	   +-- gcr-codebase/
-	   |   |
-	   |   +-- programming-elements/
-	   |   |
-	   |   +-- control-flow/
-	   |   |
-	   |   +-- arrays/
-📌 Week 2 More on Java Practice Questions
-🗓️ 22-Dec-2025 (Monday):
+📅 20-Dec-2025 (Saturday)
+Pushed all array questions into:
+https://github.com/jyoti4upadhyay/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/arrays 
 
-   Strings Questions of Level 1,Level 2,Level 3 were Assigned today and pushed Level 1 on 22 dec on 
-   GitHub.       
-      +-- gcr-codebase/
-	   |   +--strings/
+📌 Week 2 – More on Java Practice Questions
+22-Dec-2025 (Monday)
+Started Strings questions:
+https://github.com/jyoti4upadhyay/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/strings 
 
-🗓️ 24-Dec-2025 (Wednesday):
+Completed Level 1 and pushed.
 
-     Methods Questions for Level 1, Level 2, Level 3 were assigned and completed the level 1 on the 
-     same day itself.
-	   +-- gcr-codebase/
-	   |   +--methods/
-🗓️ 26-Dec-2025 (Thursday):
+24-Dec-2025 (Wednesday)
+Started Methods questions:
+https://github.com/jyoti4upadhyay/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/methods 
 
-    All levels of Methods Questions Completed and pushed to the GitHub today.
-    Methods Questions Assignment Completed and Handed in to the GCR.
-	✅ **Extras Given on 25th December (Strings) — Completed and Pushed to GitHub**
+Level 1 completed.
 
-🗓️ 29-Dec-2025 (Monday): Extras program --Scanerio Based
+26-Dec-2025 (Thursday)
+All Methods levels completed and pushed.
 
-EXTRAS - Built-In Function Practice Problem solved and completed and pushed to the GitHub today.
-Also completed the scenario-based tasks and pushed to github .
-🗓️ 30-Dec-2025 (Tuesday): Scanerio Based
+29-Dec-2025 (Monday)
+Extras programs and scenario-based tasks completed and pushed.
 
-Completed the scenario-based tasks("Line Comparison Computation Program") and pushed to github .
+30-Dec-2025 (Tuesday)
+Scenario-based – Line Comparison Computation Program completed and pushed.
+
 📌 Object-Oriented Programming
-🗓️ 31-Dec-2025 (Wednesday): Github Link
+31-Dec-2025 (Wednesday)
+Created oops-practice branch and solved Class & Object questions.
+https://github.com/jyoti4upadhyay/BridgeLabz-Training/tree/main/oops-practice 
 
- BridgeLabz-Training/
-          +-- core-java-practice/
-          +-- oops-practice/
+Completed: Constructors, Instance vs Class Variables, Access Modifiers.
 
-    Created new branch of oops-practice and performed Level 1 Level 2 of Class and Object questions in it. also Pushed the constructors based questions
-Java Constructors, Instance vs. Class Variables, Access Modifiers Concepts completed
-🗓️ 01-Jan-2026 (Thrusday):Github Link
+01-Jan-2026 (Thursday)
+Completed Keywords & Operators practice (static, final, instanceof) in oops-practice.
 
-Created a new folder of Keywords_Operators and 
-Submission of this, static, final key words and instanceof operator Level 1 Lab Practice  completed .
-Also, completed a Scanario based questions in oops-practice folder and branch 
-🗓️ 02-Jan-2026 (Friday): GitHub Link
+02-Jan-2026 (Friday)
+Completed Object Oriented Design Principles and some scenario problems.
 
- completed and Submission of Object Oriented Design Principles and some scanario based program done.
-🗓️ 03-Jan-2026 (Saturday):GitHub Link
+03-Jan-2026 (Saturday)
+Practiced Inheritance and scenario problems.
 
- practiced and Submission of Inheritance to the github on oops branch in inheritance folder Also do some Scanario based questions.
+05-Jan-2026 (Monday)
+Completed Encapsulation, Polymorphism, Interface, Abstract Class problems.
 
-🗓️ 05-Jan-2026 (Monday):GitHub Link
+06-Jan-2026 (Tuesday)
+Finished Encapsulation & Polymorphism plus scenario problems like Student Score Analyzer, Invoice Generator.
 
- practiced and Submission of Encapsulation, Polymorphism, Interface and Abstract Class to the github on oops branch in Polymorphism folder.
+📌 Week 3 – Data Structures & Algorithms
+07-Jan-2026 (Wednesday)
+Learned Data Structures and LinkedList basics.
 
-🗓️ 06-Jan-2026 (Tuesday);Github Link
+08-Jan-2026 (Thursday)
+Completed Single, Double & Circular LinkedList implementations.
 
-Submission of Encapsulation, Polymorphism, Interface and Abstract Class and do some scanario based like Student Score Analyzer,Invoice Generator for Freelancers and pushed to github.
-📌 Week 3 : Data Structure And Algorithm
-🗓️ 07-Jan-2026 (Wednesday): GitHub Link
+09-Jan-2026 (Friday)
+Learned Stack, Queue, HashMap & Hashing + scenario systems like Hospital Patient Management System (CRUD), Vehicle Rental (CRUD).
 
-Learned a Data Structure Introduction and LinkedList and doing some Scanario based questions and pushed to github.
-🗓️ 08-Jan-2026 (Thursday): GitHub Link
+12-Jan-2026 (Monday)
+More scenario-based OOP problems.
 
-Submission of Data Structure - LinkedList -Single Linked List -Double Linked List-Circular  Linked List
-🗓️ 09-Jan-2026 (Friday): GitHub Link
+13-Jan-2026 (Tuesday)
+Continued scenario-based problems.
 
- Learned a Stack , Queue, HashMap and Hashing Function and some Scanario based problem solved like Hospital Patient Management System (CRUD), Vehicle Rental Application (CRUD)
-🗓️ 12-Jan-2026 (Monday): GitHub Link
+14-Jan-2026 (Wednesday)
+Sorting algorithms — Bubble, Insertion, Merge, Quick — implemented in dsa-practice branch.
 
-completed some Scenario Based OOPs problem and pushed and submit to github 
-🗓️ 13-Jan-2026 (Tuesday): GitHub Link
+15-Jan-2026 (Thursday)
+Linear & Binary Search and 4-Layer Architecture (Presentation, Service, DAO, Model).
 
-completed some Scenario Based OOPs problem and pushed and submit to github 
-🗓️ 14-Jan-2026 (Wednesday): GitHub Link
+16-Jan-2026 (Friday)
+Finished sorting submissions.
 
-Doing all  Sorting Algorithms (Bubble Sort,Insertion Sort,Merge Sort, and Quick Sort)  in dsa-practice brandh and pushed to github.
-🗓️ 15-Jan-2026 (Thursday):
+17-Jan-2026 (Saturday)
+Linear & Binary Search submitted.
 
-Learned a Linear and Binary Search and also learned about flow of 4-Layer Architecture in Java -
-1️⃣ Presentation Layer
-2️⃣ Service Layer
-3️⃣ DAO Layer (Data Access Object)
-4️⃣ Model Layer
-🗓️ 16-Jan-2026 (Friday): GitHub Link
+19-Jan-2026 (Monday)
+Runtime Analysis & Big-O Notation submitted.
 
- Submission of Sorting Algorithm and pushed to github
-🗓️ 17-Jan-2026 (Saturday): GitHub Link
+20-Jan-2026 (Tuesday)
+Scenario based:
 
-Learn and Submission of Linear and Binary Search to github
-🗓️ 19-Jan-2026 (Monday): GitHub Link
+Movie Schedule Manager
+
+Delivery Chain Management
+
+ExamProctor – Online Exam Review System
+
+📌 Week 04 – Java Collections & Streams
+21-Jan-2026 (Wednesday)
+Java Generics implemented and pushed.
+
+22-Jan-2026 (Thursday)
+Collection Framework — List, Set, Queue, Map.
+
+📌 Week 05 – IO Programming
+23-Jan-2026 (Friday)
+Java I/O Streams learned and submitted.
+
+27-Jan-2026 (Tuesday)
+Exception Handling submitted.
+
+28-Jan-2026 (Wednesday)
+Regex & JUnit learned.
+
+29-Jan-2026 (Thursday)
+Regex submitted.
+
+30-Jan-2026 (Friday)
+JUnit & scenario problem (Lexical Twist) done.
+
+02-Feb-2026 (Monday)
+Lambda Expressions submitted.
+
+📌 Week 06 – Java 8 Features
+03-Feb-2026 (Tuesday)
+Stream API learned and pushed.
+
+04-Feb-2026 (Wednesday)
+Collectors + Factory Robot Hazard Analyzer submitted.
+
+📌 Week 07 – Solution Designing
+05-Feb-2026 (Thursday)
+Design Patterns learned and pushed.
+
+📌 Week 08 – Multithreading
+06-Feb-2026 (Friday)
+Multithreading practice and submission.
+
+07-Feb-2026 (Saturday)
+Solved OceanFleet + Online Auction Bidding System.
+
+📌 Week 09 – JDBC & DBMS
+09-Feb-2026 (Monday)
+JDBC & DBMS learned and pushed.
+
+10-Feb-2026 (Tuesday)
+Design patterns + M1 Mock Examination.
+
+12-Feb-2026 (Thursday)
+Scenario based: Smart Parking Slot Allocation System.
+
+14-Feb-2026 (Saturday)
+Mini project: Online Course Enrollment Manager (Java 8).
+
+16-Feb-2026 (Monday)
+Employee Wage Computation Problem completed.
