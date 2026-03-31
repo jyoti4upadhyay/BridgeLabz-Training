@@ -1,0 +1,30 @@
+
+import java.util.*;
+class PairSum {
+    public static boolean hasPairSum(int[] arr, int target) {
+        Set<Integer> seen = new HashSet<>();
+        for (int num : arr) {
+            if (seen.contains(target - num)) {
+                return true;
+            }
+            seen.add(num);
+        }
+        return false;
+    }
+}
+public class PairWithSum{
+    public static void main(String[] args) {
+        int[] arr = {10, 15, 3, 7};
+        int target = 17;
+
+        System.out.println("Input Array: " + Arrays.toString(arr));
+        System.out.println("Target Sum: " + target);
+
+        boolean result = PairSum.hasPairSum(arr, target);
+        if (result) {
+            System.out.println("There exists a pair with the given sum.");
+        } else {
+            System.out.println("No pair found with the given sum.");
+        }
+    }
+}
