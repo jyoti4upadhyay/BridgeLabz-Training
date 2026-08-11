@@ -1,10 +1,5 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 class Result {
 
@@ -30,8 +25,8 @@ class Result {
         List<Integer> rev = new ArrayList<>();
 
         // reverse whole
-        for (int i = a.size() - 1; i >= 0; i--) {
-            ls.add(a.get(i));
+        for (int j = a.size() - 1; j >= 0; j--) {
+            ls.add(a.get(j));
         }
 
         k = k % a.size();
