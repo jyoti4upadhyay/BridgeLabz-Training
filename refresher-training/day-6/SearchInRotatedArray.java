@@ -16,9 +16,9 @@ class Result {
         int tsum = 0;
 
         // list => array && total sum
-        for (int i = 0; i < arr.size(); i++) {
-            num[i] = arr.get(i);
-            tsum = tsum + num[i];
+        for (int j = 0; j < arr.size(); j++) {
+            num[j] = arr.get(j);
+            tsum = tsum + num[j];
         }
 
         int lsum = 0; // 0
@@ -34,9 +34,7 @@ class Result {
             }
             else if (lsum == rsum) {
                 return "YES";
-            }
-        }
-
+            }}
         return "NO";
     }
 }
@@ -50,7 +48,6 @@ public class SearchInRotatedArray {
         BufferedWriter bufferedWriter = new BufferedWriter(
             new FileWriter(System.getenv("OUTPUT_PATH"))
         );
-
         int T = Integer.parseInt(bufferedReader.readLine().trim());
 
         for (int TItr = 0; TItr < T; TItr++) {

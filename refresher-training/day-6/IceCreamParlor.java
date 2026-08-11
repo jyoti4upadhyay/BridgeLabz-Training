@@ -1,12 +1,7 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
-class Result {
+class Result{
 
     /*
      * Complete the 'balancedSums' function below.
@@ -21,12 +16,12 @@ class Result {
         int tsum = 0;
 
         // list => array && total sum
-        for (int i = 0; i < arr.size(); i++) {
-            num[i] = arr.get(i);
-            tsum = tsum + num[i];
+        for (int j = 0; j< arr.size(); j++) {
+            num[j] = arr.get(j);
+            tsum = tsum + num[j];
         }
 
-        int lsum = 0; // 0
+        int lsum = 0; 
         int rsum = tsum;
 
         for (int i = 0; i < num.length; i++) {
