@@ -23,6 +23,7 @@ public class LexicalTwist{
                 }
                 else{
                     sb=sb+ch;
+                    
                 }
             }
             System.out.println(sb);
